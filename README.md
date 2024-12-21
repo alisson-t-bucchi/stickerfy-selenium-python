@@ -85,26 +85,38 @@ class BasePage:
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/alisson-t-bucchi/stickerfy-selenium-python.git 
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd selenium-project-pom
+cd stickerfy-selenium-python
 ```
 
-3. Run the tests:
+3. Run the all tests:
 
 ```bash
-pytest tests/
+py.test.exe
 ```
 
-The results will be displayed in the console.
+4. Run one specific test:
+
+```bash
+pytest .\tests\(path to the test)
+```
+
+5. Run the all tests with HTML Report:
+
+```bash
+pytest --html=report.html
+```
+
+The results will be displayed in the console or Report.html will be generate into main structure.
 
 ## Test Structure
 
-Tests are organized by scenario within the `tests/` folder. Each subfolder represents a specific flow:
+Tests are organized by scenario within the `tests/` folder. Each subfolder represents a specific flow based in diferent buttons or functions presented in each screen:
 
 1. **`using_go_to_cart_button/`**:
    Tests navigation to the cart using the "Go to Cart" button.

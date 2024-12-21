@@ -1,9 +1,6 @@
 import pytest
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 import conftest
+
 from pages.checkout_page import CheckoutPage
 from pages.home_page import HomePage
 from pages.select_sticker import SelectSticker

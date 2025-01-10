@@ -85,7 +85,7 @@ class BasePage:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/alisson-t-bucchi/stickerfy-selenium-python.git 
+git clone https://github.com/alisson-t-bucchi/stickerfy_selenium_python.git 
 ```
 
 2. Navigate to the project directory:
